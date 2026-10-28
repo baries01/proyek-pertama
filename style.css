@@ -42,3 +42,42 @@ background: #fff;
 #kontak {
 background: #f9f5f0;
 }
+
+#portfolio {
+padding: 60px 40px;
+text-align: center;
+background: #fff;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+.portfolio-card {
+    padding: 30px 20px;
+    background: #f9f5f0;
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+.portfolio-card:hover {
+    transform: translateY(-5px);
+}
+
+.portfolio-img {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.portfolio-card h3 {
+    margin-bottom: 5px;
+}
+
+.portfolio-card p {
+    color: #666;
+    font-size: 0.9rem;
+}
