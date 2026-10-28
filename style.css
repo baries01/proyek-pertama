@@ -82,6 +82,27 @@ background: #fff;
     font-size: 0.9rem;
 }
 
+#galeri {
+padding: 60px 40px;
+text-align: center;
+background: #f9f5f0;
+}
+
+.galeri-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+.galeri-item {
+    font-size: 4rem;
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+}
+
 @media (max-width: 600px) {
     .menu-grid {
         grid-template-columns: 1fr;
