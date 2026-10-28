@@ -30,4 +30,15 @@ text-align: center;
     font-weight: bold;
     color: #6f4e37;
 }
+#tentang, #kontak {
+padding: 60px 40px;
+text-align: center;
+}
 
+#tentang {
+background: #fff;
+}
+
+#kontak {
+background: #f9f5f0;
+}
