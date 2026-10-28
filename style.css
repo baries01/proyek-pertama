@@ -81,3 +81,24 @@ background: #fff;
     color: #666;
     font-size: 0.9rem;
 }
+
+@media (max-width: 600px) {
+    .menu-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero h2 {
+        font-size: 2rem;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        margin-top: 10px;
+    }
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+    }
+}
