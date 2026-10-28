@@ -5,3 +5,29 @@ nav a { margin-left: 20px; text-decoration: none; color: #333; }
 .hero { text-align: center; padding: 100px 20px; background: #f9f5f0; }
 .hero h2 { font-size: 3rem; margin-bottom: 10px; }
 footer { text-align: center; padding: 20px; background: #333; color: #fff; }
+#menu {
+padding: 60px 40px;
+text-align: center;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.card {
+    padding: 30px;
+    background: #f9f5f0;
+    border-radius: 10px;
+}
+
+.card span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #6f4e37;
+}
+
